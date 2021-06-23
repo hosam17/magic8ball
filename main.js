@@ -37,6 +37,7 @@ function ask () {
    
    document.body.appendChild(tryagain);
    tryagain.innerHTML="Please ask another question if you like!";
+   document.getElementById("question").value="";
     
     }}
 document.getElementById("ask").addEventListener("click",ask);
