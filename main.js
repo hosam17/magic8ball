@@ -1,5 +1,5 @@
 image = document.createElement("img");
-image.setAttribute("src", "JS\\img\\magic8ball_extra.png")
+image.setAttribute("src", "img\\magic8ball_extra.png")
 divAnswer=document.createElement("div");
 document.body.appendChild(divAnswer);
 divAnswer.appendChild(image);
@@ -15,7 +15,7 @@ function ask () {
     
 
     choice = Math.floor(((Math.random())*20)+1);
-    path="JS\\img\\magic8ball_"+choice+".png"
+    path="img\\magic8ball_"+choice+".png"
      
     
     image.setAttribute("src", path);
